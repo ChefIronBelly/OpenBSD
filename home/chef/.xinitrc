@@ -24,7 +24,7 @@ xsetroot -solid "$(xrdb -query | awk '/\*.color8/ {print $2}')"
 #bud /home/chef/Pictures/Wallpapers/
 
 while true; do
-	xsetroot -name " $(date +"%a %b %d,") $(date +"%I:%M")"
+	xsetroot -name " $(uname) - $(date +"%a %b %d,") $(date +"%I:%M")"
 	sleep 60
 done &
 

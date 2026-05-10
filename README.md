@@ -1,4 +1,4 @@
-# OS: OpenBSD 7.8-current
+# OS: OpenBSD 7.9-current
 
 https://www.openbsd.org
 

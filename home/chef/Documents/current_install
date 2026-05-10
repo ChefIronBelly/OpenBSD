@@ -1,6 +1,6 @@
-# OpenBSD 7.8-current
+# OpenBSD 7.9-current
 
-# start w latest OpenBSD-7.8 current snapshot
+# start w latest OpenBSD-7.9 current snapshot
 
 default install GPT and using UFS default sizes
 
