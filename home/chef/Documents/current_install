@@ -17,7 +17,7 @@ $ mkdir ~/Source & cd Source
 $ git clone https://github.com/ChefIronBelly/OpenBSD-D.git
 cp user files and root files from /boot /etc /home to system
 
-$ cd Source /dwm /dmenu /st and sudo make clean install
+$ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 260101
+# 260510
