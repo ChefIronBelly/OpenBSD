@@ -66,7 +66,7 @@ alias preview='feh -g 450x300+500+200 -R .01 --zoom fill'
 alias rec='ffmpeg -f x11grab -s 1920x1080 -an -i :0.0 -c:v libvpx -b:v 5M -crf 10 -quality realtime -y -loglevel quiet'
 alias info='info.sh'
 alias todo='nvim ~/todo'
-alias zzz='doas acpiconf -s 3'
+# alias zzz='doas acpiconf -s 3'
 alias shootme='DISPLAY=:0 import -window root ~/Pictures/scrots/scrot-$(date +%m-%d-%Y-%H-%M-%S).png'
 alias free='top -n 1 | head -n 5 | tail -n 2'
 alias ping='ping -c3'
@@ -80,6 +80,7 @@ alias stime='doas rdate -4 -s time.nist.gov'
 alias rnet='doas -u root sh /etc/netstart re0'
 alias mp3='yt-dlp -x --audio-format mp3'
 alias wet='curl https://wttr.in/det'
+alias yt='yt-dlp --ffmpeg-location /usr/local/bin/ffmpeg'
 
 PS1=""
  case `id -u` in
