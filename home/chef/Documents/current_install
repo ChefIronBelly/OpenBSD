@@ -14,10 +14,10 @@ logout
 as user
 
 $ mkdir ~/Source & cd Source
-$ git clone https://github.com/ChefIronBelly/OpenBSD-D.git
+$ git clone https://github.com/ChefIronBelly/OpenBSD.git
 cp user files and root files from /boot /etc /home to system
 
 $ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 260510
+# 260601
