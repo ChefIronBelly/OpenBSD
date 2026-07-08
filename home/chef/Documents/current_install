@@ -4,7 +4,7 @@
 
 default install GPT and using UFS default sizes
 
-# pkg_add install github-cli git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
+# pkg_add github-cli git firefox geany mc mpv yt-dlp mpg123 liberation-fonts
 scrot fastfetch
 
 # echo permit persist :wheel > /etc/doas.conf
@@ -20,4 +20,4 @@ cp user files and root files from /boot /etc /home to system
 $ cd Source /dwm /dmenu /st and doas make clean install
 $ doas mkdir /mnt/usb
 
-# 260601
+# 260707
