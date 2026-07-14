@@ -1,6 +1,10 @@
 #	$NetBSD: dot.profile,v 1.8.4.1 2012/04/12 17:12:06 riz Exp $
 #
 
+HISTFILE=$HOME/.ksh_history
+HISTSIZE=2000
+export HISTFILE HISTSIZE
+
 LANG=en_US.UTF-8
 LC_CTYPE=en_US.UTF-8
 LC_ALL=""
