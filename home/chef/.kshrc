@@ -17,6 +17,7 @@ export LC_CTYPE=en_US.UTF-8
 export CLICOLOR=1
 HISTFILE=$HOME/.ksh_history
 HISTSIZE=20000
+export HISTFILE HISTSIZE
 
 #### SAFETY ####
 
