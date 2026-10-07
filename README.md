@@ -1,4 +1,4 @@
-# OS: OpenBSD 8.0-beta
+# OS: OpenBSD 8.0
 
 https://www.openbsd.org
 
