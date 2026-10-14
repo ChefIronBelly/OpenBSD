@@ -1,4 +1,4 @@
-# OS: OpenBSD 8.0
+# OS: OpenBSD 8.0-current
 
 https://www.openbsd.org
 
