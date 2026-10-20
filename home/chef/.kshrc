@@ -18,6 +18,7 @@ export CLICOLOR=1
 HISTFILE=$HOME/.ksh_history
 HISTSIZE=20000
 export HISTFILE HISTSIZE
+set -o emacs
 
 #### SAFETY ####
 
